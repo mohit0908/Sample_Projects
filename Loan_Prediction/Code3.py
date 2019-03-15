@@ -66,7 +66,7 @@ df_test_final = data_explore(df_test)
 
 
 # Random Forests Classifier
-model_log = LogisticRegression().fit(df_train_final, y)
+model_log = RandomForestClassifier().fit(df_train_final, y)
 
 
 
